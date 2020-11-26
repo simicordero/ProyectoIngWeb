@@ -2,6 +2,7 @@
 body{
     border: 0px;
     margin: 0px;
+    background-color: #ffffF9;
 }
 header{
     background: rgba(156, 56, 201, 1);
@@ -9,8 +10,10 @@ header{
     position: fixed;
     margin: 0px auto;
     display: flex;
+    z-index: 5;
     
 }
+
 
 #img-contenedor {
     width: 40%;
@@ -66,8 +69,8 @@ img{
 
 .news-container{
 
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     height: 50%;
     border: 10px solid red;
 }
@@ -76,4 +79,18 @@ img{
     height: 470px;
 }
 
+.carreras-container{
+    width: 90%;
+    grid-gap: 25px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin: 3%;
+}
+
+.grid-item {
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
 
